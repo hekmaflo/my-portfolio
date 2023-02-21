@@ -4,7 +4,7 @@
   align-content: center;
   justify-content: center;
   text-align: center;
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(3, 26, 0);
   height: 100vh;
 }
 
@@ -12,27 +12,37 @@
   display: flex;
   align-items: center;
   align-content: center;
-  flex-direction: column;
-  height: 90vh;
-  width: 95%;
-  background-color: rgb(196, 196, 196);
-  border-radius: 15px;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(57, 57, 57);
+  border-style: solid;
+  /* border-radius: 15px; */
+}
+
+.Projects {
+  background-color: rgb(45, 44, 42);
+  color: aliceblue;
+  width: 26%;
+  height: 100vh;
 }
 
 .Nav {
-  background-color: rgba(0, 0, 0, 0.591);
-  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  background-color: rgba(140, 140, 140, 0.591);
+  /* border-radius: 15px 15px 0px 0px; */
   color: aliceblue;
-  height: 8%;
+  height: 7%;
   width: 100%;
 }
 
 .Intro-card {
-  margin-top: 10%;
-  width: 98%;
-  height: 200px;
-  border-style: solid;
-  border-radius: 10px;
+  margin: 20px;
+  width: 70%;
+  height: 98%;
+  background-color: #282c34;
+  /* border-style: solid; */
+  /* border-radius: 10px; */
   color: azure;
 }
 
