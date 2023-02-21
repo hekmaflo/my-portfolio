@@ -5,8 +5,13 @@ function App() {
   return (
     <div className="App">
       <div className="Main">
-        <h1>HECTOR FLORES</h1>
-        <h1>Software Engineer</h1>
+        <div className="Nav">
+          <h4>home</h4>
+        </div>
+        <div className="Intro-card">
+          <h1>HECTOR FLORES</h1>
+          <h1>Software Engineer</h1>
+        </div>
       </div>
     </div>
   );

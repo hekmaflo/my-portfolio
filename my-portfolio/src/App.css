@@ -9,10 +9,31 @@
 }
 
 .Main {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
   height: 90vh;
   width: 95%;
   background-color: rgb(196, 196, 196);
   border-radius: 15px;
+}
+
+.Nav {
+  background-color: rgba(0, 0, 0, 0.591);
+  border-radius: 15px 15px 0px 0px;
+  color: aliceblue;
+  height: 8%;
+  width: 100%;
+}
+
+.Intro-card {
+  margin-top: 10%;
+  width: 98%;
+  height: 200px;
+  border-style: solid;
+  border-radius: 10px;
+  color: azure;
 }
 
 .App-logo {
