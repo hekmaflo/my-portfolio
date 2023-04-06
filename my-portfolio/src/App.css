@@ -1,8 +1,9 @@
 .App {
   display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* align-content: center; */
+  /* justify-content: center; */
+  flex-direction: column;
   text-align: center;
   background-color: rgb(3, 26, 0);
   height: 100vh;
@@ -21,7 +22,39 @@
 }
 
 .Navbar {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
   width: 100vw;
+  height: 4vh;
+  background-color: darkgray;
+}
+
+.About-me-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100vw;
+  height: 45vh;
+  background-color: rgb(110, 110, 110);
+}
+
+.contain {
+  width: 50%;
+  height: 100%;
+  /* border-style: solid; */
+}
+
+.logo {
+  width: 3.5%;
+  margin: 20px;
+}
+
+.More {
+  width: 100%;
+  height: 52vh;
   background-color: darkgray;
 }
 
