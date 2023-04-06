@@ -6,8 +6,9 @@ const AboutMe = () => {
   return (
     <div className="About-me-container">
       <div className="contain">
-        <h1>Hector Flores</h1>
-        <h3>Full Stack Wev Developer</h3>
+        <h1>Hello, I'm Hector Flores</h1>
+        <h3>Software Engineer</h3>
+        <h4>Simple one line describing me.</h4>
         <img className="logo" src={github} alt="logo" />
         <img className="logo" src={linkdin} alt="logo" />
         <img className="logo" src={mail} alt="logo" />
