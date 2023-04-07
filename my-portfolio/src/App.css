@@ -131,6 +131,15 @@
   border-width: 3px;
 }
 
+.nav-button {
+  transition: 0.3s;
+}
+
+.nav-button:hover {
+  color: springgreen;
+  transform: translate(0, -5px);
+}
+
 .info-container-img {
   display: flex;
   align-items: center;

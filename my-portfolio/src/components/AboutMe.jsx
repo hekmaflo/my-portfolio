@@ -8,8 +8,8 @@ const AboutMe = () => {
     <div className="About-me-container">
       <div className="contain">
         <h1>Hello, I'm Hector Flores</h1>
-        <h3>Software Engineer</h3>
-        <h4>Simple one line describing me.</h4>
+        <h2>Software Engineer</h2>
+        <h3>Turning coffee into lines of code.</h3>
         <img className="logo" src={github} alt="logo" />
         <img className="logo" src={linkdin} alt="logo" />
         <img className="logo" src={mail} alt="logo" />
