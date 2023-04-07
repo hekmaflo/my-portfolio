@@ -13,7 +13,12 @@ const More = () => {
           <div className="info-nav">
             <p>project</p>
           </div>
+          <div className="info-container-img">
+            <h1>Image</h1>
+          </div>
           <h1>hello</h1>
+          <p>This is a description for the project</p>
+          <button className="button">View Project</button>
         </div>
         <div className="info-container">
           <div className="info-nav">
