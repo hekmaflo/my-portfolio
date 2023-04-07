@@ -47,33 +47,88 @@
   /* border-style: solid; */
 }
 
+.profile-pic {
+  width: 40%;
+  margin-top: 5%;
+}
+
 .logo {
   width: 3.5%;
   margin: 20px;
 }
 
+.button {
+  width: 120px;
+  height: 35px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 3px;
+  background-color: #282c34;
+  color: aliceblue;
+  border-width: 3px;
+  margin: 5px;
+}
+
+.More-more {
+  display: flex;
+  overflow-x: auto;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+}
+
 .More {
   display: flex;
+  overflow-x: auto;
   align-items: center;
-  justify-content: center;
   width: 100%;
   height: 52vh;
   background-color: darkgray;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.navigation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  color: aliceblue;
+  height: 52vh;
+  width: 250px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 300px;
+  padding: 0;
 }
 
 .info-container {
   background-color: rgb(253, 253, 253);
   border-style: solid;
-  border-width: 2px;
+  border-width: 3px;
+  border-radius: 3px;
   box-shadow: 10px 5px 0px rgb(0, 0, 0);
   height: 350px;
   width: 500px;
   margin: 13px;
   transition: 0.3s;
+  padding: 0;
+  flex-shrink: 0;
 }
 
 .info-container:hover {
   transform: translate(0, -10px);
+}
+
+.info-nav {
+  width: 100%;
+  height: 8%;
+  margin: 0;
+  padding: 0;
+  border-bottom: solid;
+  border-width: 3px;
 }
 
 .Projects {
