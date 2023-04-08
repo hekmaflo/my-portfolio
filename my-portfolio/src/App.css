@@ -57,6 +57,29 @@
   margin: 20px;
 }
 
+.logo-small {
+  width: 2%;
+}
+
+.smol-text {
+  font-size: 9px;
+  font-style: italic;
+}
+
+.contact-logo {
+  width: 2.5em;
+  margin-left: 0;
+  margin-right: 2em;
+  padding: 0;
+}
+
+.contact-logo-box {
+  width: 2.5em;
+  margin-right: 2em;
+  margin-left: 2em;
+  padding: 0;
+}
+
 .button {
   width: 120px;
   height: 35px;
@@ -256,8 +279,8 @@
 .contact-info {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: left;
+  flex-direction: row;
   background-color: aliceblue;
   margin: 24px;
   width: 350px;
@@ -269,6 +292,7 @@
 }
 
 .contact-info-spacing {
+  text-align: left;
   padding-top: 5px;
   margin: 0;
 }
