@@ -1,9 +1,10 @@
 import React from "react";
-
+import React from "react";
+import mug from "./assets/mug.png";
 const Nav = () => {
   return (
     <div className="Navbar">
-      <p>Navbar</p>
+      <img src={mug} alt="mug" />
     </div>
   );
 };
