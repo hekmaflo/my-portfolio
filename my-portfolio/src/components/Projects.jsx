@@ -7,7 +7,7 @@ const Projects = () => {
     {
       projectnav: "project-ocho.html",
       image: "https://i.imgur.com/0TP4sEi.gif",
-      projectname: "Ocho",
+      projectname: "OCHO",
       description: "short description here for the project",
       projectlink: "https://www.google.com",
       githubrepo: "https://www.github.com",
@@ -25,16 +25,16 @@ const Projects = () => {
     {
       projectnav: "project-whac.html",
       image: "https://i.imgur.com/y0ZqiwE.gif",
-      projectname: "Whac-a-Mole Game",
+      projectname: "Whac-a-Mole",
       description: "short description here for the project two",
       projectlink: "https://www.google.com",
       githubrepo: "https://www.github.com",
     },
 
     {
-      projectnav: "project-four.html",
-      image: "image-here-four",
-      projectname: "project name four",
+      projectnav: "project-codeup.html",
+      image: "https://i.imgur.com/NatPJoO.gif",
+      projectname: "CodeUp",
       description: "short description here for the project four",
       projectlink: "https://www.google.com",
       githubrepo: "https://www.github.com",
