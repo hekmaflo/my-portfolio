@@ -30,7 +30,9 @@ const Contact = () => {
           </div>
           <div>
             <h4 className="contact-info-spacing">LinkedIn</h4>
-            <p className="contact-info-spacing">www.linkedin.com/hmflores88</p>
+            <p className="contact-info-spacing">
+              https://www.linkedin.com/in/hector-floresm/
+            </p>
           </div>
         </div>
       </div>

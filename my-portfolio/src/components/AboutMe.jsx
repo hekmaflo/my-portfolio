@@ -5,6 +5,7 @@ import linkdin from "./assets/linkdin.png";
 import placeholder from "./assets/placeholder.png";
 import me from "./assets/me.png";
 import me1 from "./assets/me1.png";
+import { Link } from "react-router-dom";
 const AboutMe = () => {
   return (
     <div className="About-me-container">
@@ -22,8 +23,12 @@ const AboutMe = () => {
           {/* <img className="logo" src={mail} alt="logo" /> */}
         </div>
         <div>
-          <button className="button">ABOUT ME</button>
-          <button className="button">RESUME</button>
+          <Link to="/about">
+            <button className="button">ABOUT ME</button>
+          </Link>
+          <a href="https://drive.google.com/file/d/1rioLdWE0mQBkh2XWm8D9hmMeht-yBwAM/view?usp=sharing">
+            <button className="button">RESUME</button>
+          </a>
         </div>
       </div>
       <div className="contain">
