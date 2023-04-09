@@ -5,19 +5,37 @@ import mini from "./assets/mini.png";
 const Projects = () => {
   const projects = [
     {
-      projectnav: "project-one.html",
-      image: "image-here",
-      projecname: "project name",
+      projectnav: "project-ocho.html",
+      image: "https://i.imgur.com/0TP4sEi.gif",
+      projectname: "Ocho",
       description: "short description here for the project",
-      projectlink: "www.google.com",
-      githubrepo: "www.github.com",
+      projectlink: "https://www.google.com",
+      githubrepo: "https://www.github.com",
     },
 
     {
-      projectnav: "project-two.html",
-      image: "image-here-two",
-      projecname: "project name two",
+      projectnav: "project-panko.html",
+      image: "https://i.imgur.com/lCAwshN.gif",
+      projectname: "PANKO",
+      description: "short description here for the project three",
+      projectlink: "https://www.google.com",
+      githubrepo: "https://www.github.com",
+    },
+
+    {
+      projectnav: "project-whac.html",
+      image: "https://i.imgur.com/y0ZqiwE.gif",
+      projectname: "Whac-a-Mole Game",
       description: "short description here for the project two",
+      projectlink: "https://www.google.com",
+      githubrepo: "https://www.github.com",
+    },
+
+    {
+      projectnav: "project-four.html",
+      image: "image-here-four",
+      projectname: "project name four",
+      description: "short description here for the project four",
       projectlink: "https://www.google.com",
       githubrepo: "https://www.github.com",
     },
@@ -34,10 +52,15 @@ const Projects = () => {
               <p className="project-nav-title">{project.projectnav}</p>
             </div>
           </div>
-          <div className="info-container-img">
-            <h1>{project.image}</h1>
+          <div
+            className="info-container-img"
+            style={{
+              backgroundImage: `url(${project.image})`,
+            }}
+          >
+            {/* <h1>{project.projecname}</h1> */}
           </div>
-          <h2>{project.name}</h2>
+          <h2>{project.projectname}</h2>
           <p>{project.description}</p>
           <a href={project.projectlink}>
             <button className="button">View Project</button>
@@ -47,7 +70,7 @@ const Projects = () => {
           </a>
         </div>
       ))}
-      <div className="info-container">
+      {/* <div className="info-container">
         <div className="info-nav">
           <p>project</p>
         </div>
@@ -64,7 +87,7 @@ const Projects = () => {
           <p>project</p>
         </div>
         <h1>hello</h1>
-      </div>
+      </div> */}
     </div>
   );
 };
