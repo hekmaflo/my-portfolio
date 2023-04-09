@@ -41,15 +41,42 @@
   background-color: rgb(110, 110, 110);
 }
 
+.about-me-text-sub {
+}
+
+.about-me-text {
+  font-family: "Lexend", sans-serif;
+  font-size: 55px;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.about-me-text-sub {
+  font-family: "Lexend", sans-serif;
+  font-size: 40px;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+}
+
 .contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   width: 50%;
   height: 100%;
   /* border-style: solid; */
 }
 
 .profile-pic {
-  width: 40%;
+  width: 35%;
   margin-top: 5%;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  border-radius: 10px;
 }
 
 .logo {
@@ -319,16 +346,17 @@
 }
 
 .contact-input-user-info {
-  width: 27.5%;
+  width: 90%;
   height: 3em;
-  margin: 10px;
+  margin: 0;
+  padding: 0;
   background-color: #4c4c4c;
   border-bottom: solid;
   border-color: black;
   border-style: none;
   color: aliceblue;
   border-radius: 5px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 
 .contact-input-message {
@@ -346,8 +374,14 @@
 .name-email-box {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
+  width: 70%;
+}
+
+.name-email-layout {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  width: 80%;
 }
 
 .App-logo {

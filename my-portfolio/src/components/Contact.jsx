@@ -37,22 +37,32 @@ const Contact = () => {
       <div className="contact-form">
         <h3>Send me a message</h3>
         <div className="name-email-box">
-          <label htmlFor="">Name</label>
-          <input
-            className="contact-input-user-info "
-            type="text"
-            name="name"
-            id=""
-            placeholder="Full Name"
-          />
-          <p>required</p>
-          <input
-            className="contact-input-user-info "
-            type="text"
-            name="email"
-            id=""
-            placeholder="Email"
-          />
+          <div className="name-email-layout">
+            <label className="contact-info-spacing" htmlFor="">
+              Name
+            </label>
+            <input
+              className="contact-input-user-info "
+              type="text"
+              name="name"
+              id=""
+              placeholder="Full Name"
+            />
+            <p className="contact-info-spacing">required</p>
+          </div>
+          <div className="name-email-layout">
+            <label className="contact-info-spacing" htmlFor="">
+              Email
+            </label>
+            <input
+              className="contact-input-user-info "
+              type="text"
+              name="email"
+              id=""
+              placeholder="Email"
+            />
+            <p className="contact-info-spacing">required</p>
+          </div>
         </div>
         <input
           className="contact-input"
