@@ -1,8 +1,31 @@
-import React from "react";
+import React, { useRef } from "react";
 import phone from "./assets/phone.png";
 import email from "./assets/email.png";
 import social from "./assets/social.png";
+import emailjs from "emailjs-com";
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_x846lff",
+        "template_i7h0fgt",
+        form.current,
+        "QNNuhFx-_crTSNdWS"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <div className="More">
       <div className="all-info">
@@ -36,7 +59,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="contact-form">
+      <form className="contact-form" onSubmit={sendEmail} ref={form}>
         <h3>Let's work together!</h3>
         <div className="name-email-box">
           <div className="name-email-layout">
@@ -93,8 +116,10 @@ const Contact = () => {
           id=""
           placeholder="Talk to me"
         />
-        <button className="button">submit</button>
-      </div>
+        <button type="submit" className="button">
+          submit
+        </button>
+      </form>
     </div>
   );
 };
