@@ -31,7 +31,7 @@ const Contact = () => {
           <div>
             <h4 className="contact-info-spacing">LinkedIn</h4>
             <p className="contact-info-spacing">
-              https://www.linkedin.com/in/hector-floresm/
+              https://www.linkedin.com<br></br>/in/hector-floresm/
             </p>
           </div>
         </div>
@@ -40,9 +40,12 @@ const Contact = () => {
         <h3>Let's work together!</h3>
         <div className="name-email-box">
           <div className="name-email-layout">
-            <label className="contact-info-spacing" htmlFor="">
+            {/* <label className="contact-info-spacing" htmlFor="">
               Name
             </label>
+            <p className="contact-info-spacing, contact-info-style">
+              Required *
+            </p> */}
             <input
               className="contact-input-user-info "
               type="text"
@@ -50,14 +53,14 @@ const Contact = () => {
               id=""
               placeholder="Full Name"
             />
-            <p className="contact-info-spacing, contact-info-style">
-              Required *
-            </p>
           </div>
           <div className="name-email-layout">
-            <label className="contact-info-spacing" htmlFor="">
+            {/* <label className="contact-info-spacing" htmlFor="">
               Email
             </label>
+            <p className="contact-info-spacing, contact-info-style">
+              Required *
+            </p> */}
             <input
               className="contact-input-user-info "
               type="text"
@@ -65,14 +68,12 @@ const Contact = () => {
               id=""
               placeholder="Email"
             />
-            <p className="contact-info-spacing, contact-info-style">
-              Required *
-            </p>
           </div>
         </div>
-        <label className="contact-info-spacing" htmlFor="">
+        {/* <label className="contact-info-spacing" htmlFor="">
           Subject
         </label>
+        <p className="contact-info-spacing, contact-info-style">Required *</p> */}
         <input
           className="contact-input"
           type="text"
@@ -80,11 +81,11 @@ const Contact = () => {
           id=""
           placeholder="Subject"
         />
-        <p className="contact-info-spacing, contact-info-style">Required *</p>
 
-        <label className="contact-info-spacing" htmlFor="">
+        {/* <label className="contact-info-spacing" htmlFor="">
           Message
         </label>
+        <p className="contact-info-spacing, contact-info-style">Required *</p> */}
         <textarea
           className="contact-input-message"
           type="text"
@@ -92,7 +93,6 @@ const Contact = () => {
           id=""
           placeholder="Talk to me"
         />
-        <p className="contact-info-spacing, contact-info-style">Required *</p>
         <button className="button">submit</button>
       </div>
     </div>

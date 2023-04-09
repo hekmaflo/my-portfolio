@@ -7,37 +7,41 @@ const Projects = () => {
     {
       projectnav: "project-ocho.html",
       image: "https://i.imgur.com/0TP4sEi.gif",
-      projectname: "OCHO",
-      description: "short description here for the project",
+      projectname: "Ocho",
+      description:
+        "Social media website that allows users create lists to showcase their interests. Built using the MERN stack.",
       projectlink: "https://www.google.com",
-      githubrepo: "https://www.github.com",
+      githubrepo: "https://github.com/hekmaflo/ocho-app",
     },
 
     {
       projectnav: "project-panko.html",
       image: "https://i.imgur.com/lCAwshN.gif",
-      projectname: "PANKO",
-      description: "short description here for the project three",
-      projectlink: "https://www.google.com",
-      githubrepo: "https://www.github.com",
+      projectname: "Panko",
+      description:
+        "Panko is a MERN stack travel planning application that enables users to organize their trips, adding cities, landmarks, and planned activities.",
+      projectlink: "https://panko.herokuapp.com",
+      githubrepo: "https://github.com/hekmaflo/panko",
     },
 
     {
       projectnav: "project-whac.html",
       image: "https://i.imgur.com/y0ZqiwE.gif",
       projectname: "Whac-a-Mole",
-      description: "short description here for the project two",
-      projectlink: "https://www.google.com",
-      githubrepo: "https://www.github.com",
+      description:
+        "Arcade game that challenges players to hit as many moles as possible within a time limit, implemented with HTML, CSS, and JavaScript.",
+      projectlink: "https://whac-a-mole-8bit.surge.sh",
+      githubrepo: "https://github.com/hekmaflo/whac-a-mole",
     },
 
     {
       projectnav: "project-codeup.html",
       image: "https://i.imgur.com/NatPJoO.gif",
       projectname: "CodeUp",
-      description: "short description here for the project four",
-      projectlink: "https://www.google.com",
-      githubrepo: "https://www.github.com",
+      description:
+        "CodeUp is a web based application that enables software engineers to monitor their skill acquisition and track their educational progress.",
+      projectlink: "https://code-up.vercel.app",
+      githubrepo: "https://github.com/fuentesdominic/CodeUp",
     },
   ];
   return (
@@ -60,8 +64,8 @@ const Projects = () => {
           >
             {/* <h1>{project.projecname}</h1> */}
           </div>
-          <h2>{project.projectname}</h2>
-          <p>{project.description}</p>
+          <h2 className="google-font">{project.projectname}</h2>
+          <p className="project-description">{project.description}</p>
           <a href={project.projectlink}>
             <button className="button">View Project</button>
           </a>

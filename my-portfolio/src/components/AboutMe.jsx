@@ -33,7 +33,7 @@ const AboutMe = () => {
       </div>
       <div className="contain">
         <img className="profile-pic" src={me1} alt="mypic" />
-        <p>git add, git commit, git pull is the new eat, pray & love</p>
+        <h4>git add, git commit, git pull is the new eat, pray & love</h4>
       </div>
     </div>
   );

@@ -49,6 +49,10 @@
   padding: 0;
 }
 
+.google-font {
+  font-family: "Lexend", sans-serif;
+}
+
 .about-me-text-sub {
   font-family: "Lexend", sans-serif;
   font-size: 40px;
@@ -246,6 +250,11 @@
   background-size: cover;
 }
 
+.project-description {
+  font-size: 14px;
+  margin: 20px;
+}
+
 /* SKLLS */
 
 .skills-info-container {
@@ -393,7 +402,7 @@
 }
 
 .contact-input-user-info {
-  width: 90%;
+  width: 80%;
   height: 3em;
   margin: 0;
   padding: 0;
@@ -403,7 +412,7 @@
   border-style: none;
   color: aliceblue;
   border-radius: 5px;
-  /* padding-left: 20px; */
+  padding-left: 20px;
 }
 
 .contact-input-message {
@@ -421,14 +430,17 @@
 .name-email-box {
   display: flex;
   align-items: center;
-  width: 70%;
+  justify-content: center;
+  align-self: center;
+  width: 67%;
 }
 
 .name-email-layout {
   display: flex;
   justify-content: left;
+  align-items: center;
   flex-direction: column;
-  width: 80%;
+  width: 50%;
 }
 
 .App-logo {

@@ -31,7 +31,9 @@ const Skills = () => {
         {/* <div className="skills-info-container-img">
           <h1>Image</h1>
         </div> */}
-        <h3>The secret sauce that makes my software.</h3>
+        <h3 className="google-font">
+          The secret sauce that makes my projects happend.
+        </h3>
         <div className="all-skills">
           <div className="skills-category">
             <h3>Front End</h3>
