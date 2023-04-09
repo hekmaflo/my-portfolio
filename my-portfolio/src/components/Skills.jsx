@@ -13,13 +13,20 @@ import vue from "./assets/vuejs.png";
 import python from "./assets/python.png";
 import flask from "./assets/flask.png";
 import heroku from "./assets/heroku.png";
+import cross from "./assets/cross.png";
+import mini from "./assets/mini.png";
 
 const Skills = () => {
   return (
     <div className="More">
       <div className="skills-info-container">
         <div className="skills-info-nav">
-          <p>Skills</p>
+          <div className="info-nav-items">
+            <img className="logos-skills" src={cross} alt="cross" />
+            <img className="logos-skills" src={mini} alt="cross" />
+
+            <p className="project-nav-title">i-have-a-set-of-skills.html</p>
+          </div>
         </div>
         {/* <div className="skills-info-container-img">
           <h1>Image</h1>

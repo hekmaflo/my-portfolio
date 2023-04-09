@@ -13,8 +13,12 @@ const AboutMe = () => {
         <h2 className="about-me-text-sub">Software Engineer</h2>
         <h4>Choosing to turn coffee into lines of code.</h4>
         <div>
-          <img className="logo" src={github} alt="logo" />
-          <img className="logo" src={linkdin} alt="logo" />
+          <a href="https://github.com/hekmaflo">
+            <img className="logo" src={github} alt="logo" />
+          </a>
+          <a href="https://www.linkedin.com/in/hector-floresm/">
+            <img className="logo" src={linkdin} alt="logo" />
+          </a>
           <img className="logo" src={mail} alt="logo" />
         </div>
         <div>
@@ -24,7 +28,7 @@ const AboutMe = () => {
       </div>
       <div className="contain">
         <img className="profile-pic" src={me1} alt="mypic" />
-        <p>You miss 100% of the opportinites you never take</p>
+        <p>git add, git commit, git pull is the new eat, pray & love</p>
       </div>
     </div>
   );

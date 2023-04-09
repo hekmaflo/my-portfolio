@@ -35,7 +35,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="contact-form">
-        <h3>Send me a message</h3>
+        <h3>Let's work together!</h3>
         <div className="name-email-box">
           <div className="name-email-layout">
             <label className="contact-info-spacing" htmlFor="">
@@ -48,7 +48,9 @@ const Contact = () => {
               id=""
               placeholder="Full Name"
             />
-            <p className="contact-info-spacing">required</p>
+            <p className="contact-info-spacing, contact-info-style">
+              Required *
+            </p>
           </div>
           <div className="name-email-layout">
             <label className="contact-info-spacing" htmlFor="">
@@ -61,9 +63,14 @@ const Contact = () => {
               id=""
               placeholder="Email"
             />
-            <p className="contact-info-spacing">required</p>
+            <p className="contact-info-spacing, contact-info-style">
+              Required *
+            </p>
           </div>
         </div>
+        <label className="contact-info-spacing" htmlFor="">
+          Subject
+        </label>
         <input
           className="contact-input"
           type="text"
@@ -71,6 +78,11 @@ const Contact = () => {
           id=""
           placeholder="Subject"
         />
+        <p className="contact-info-spacing, contact-info-style">Required *</p>
+
+        <label className="contact-info-spacing" htmlFor="">
+          Message
+        </label>
         <textarea
           className="contact-input-message"
           type="text"
@@ -78,6 +90,7 @@ const Contact = () => {
           id=""
           placeholder="Talk to me"
         />
+        <p className="contact-info-spacing, contact-info-style">Required *</p>
         <button className="button">submit</button>
       </div>
     </div>

@@ -1,11 +1,18 @@
 import React from "react";
+import cross from "./assets/cross.png";
+import mini from "./assets/mini.png";
 
 const Projects = () => {
   return (
     <div className="More">
       <div className="info-container">
         <div className="info-nav">
-          <p>project</p>
+          <div className="info-nav-items">
+            <img className="logo-project" src={cross} alt="cross" />
+            <img className="logo-project" src={mini} alt="cross" />
+
+            <p className="project-nav-title">project-one.html</p>
+          </div>
         </div>
         <div className="info-container-img">
           <h1>Image</h1>

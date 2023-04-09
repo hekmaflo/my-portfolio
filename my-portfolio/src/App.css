@@ -41,9 +41,6 @@
   background-color: rgb(110, 110, 110);
 }
 
-.about-me-text-sub {
-}
-
 .about-me-text {
   font-family: "Lexend", sans-serif;
   font-size: 55px;
@@ -58,6 +55,7 @@
   letter-spacing: 0;
   margin: 0;
   padding: 0;
+  color: springgreen;
 }
 
 .contain {
@@ -86,6 +84,23 @@
 
 .logo-small {
   width: 2%;
+}
+
+.logo-nav {
+  width: 2%;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-project {
+  width: 5%;
+  margin: 0;
+  padding: 0;
+}
+.logos-skills {
+  width: 2%;
+  margin: 0;
+  padding: 0;
 }
 
 .smol-text {
@@ -179,11 +194,27 @@
 }
 
 .info-nav {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
   width: 100%;
   margin: 0;
   padding: 0;
   border-bottom: solid;
   border-width: 3px;
+}
+
+.info-nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.project-nav-title {
+  margin-left: 1.5em;
 }
 
 .nav-button {
@@ -320,8 +351,17 @@
 
 .contact-info-spacing {
   text-align: left;
+  padding-top: 10px;
+  margin: 0;
+  padding-left: 15px;
+}
+
+.contact-info-style {
+  font-size: 10px;
+  text-align: left;
   padding-top: 5px;
   margin: 0;
+  padding-left: 15px;
 }
 
 .contact-form {
