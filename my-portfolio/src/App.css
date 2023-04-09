@@ -78,8 +78,13 @@
 }
 
 .logo {
-  width: 3.5%;
+  width: 4.5%;
   margin: 20px;
+  border-radius: 20px;
+}
+
+.logo:hover {
+  background-color: springgreen;
 }
 
 .logo-small {

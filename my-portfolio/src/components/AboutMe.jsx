@@ -19,7 +19,7 @@ const AboutMe = () => {
           <a href="https://www.linkedin.com/in/hector-floresm/">
             <img className="logo" src={linkdin} alt="logo" />
           </a>
-          <img className="logo" src={mail} alt="logo" />
+          {/* <img className="logo" src={mail} alt="logo" /> */}
         </div>
         <div>
           <button className="button">ABOUT ME</button>
