@@ -1,9 +1,35 @@
 import React from "react";
+import me1 from "./assets/me1.png";
+import { Link } from "react-router-dom";
 
 const CompleteAbout = () => {
   return (
-    <div>
-      <h1>about me</h1>
+    <div className="complete-about">
+      <div className="about-card">
+        <img className="profile-pic-about" src={me1} alt="mypic" />
+
+        <div className="right-about-card">
+          <h1 className="about-me-name">HECTOR FLORES</h1>
+          <h2 className="google-font">Software Engineer</h2>
+          <h4>git add, git commit, git push is the new eat, pray & love</h4>
+          <h2>I am just a guy who enjoys to code.</h2>
+          <p className="right-description">
+            Hi there, I'm Hector - the software engineer you've been searching
+            for. I may be a web cowboy, but don't let that fool you - I'm not
+            afraid to break the rules to create something amazing. You see, I'm
+            a fan of all things old school tech. Black and white film? Yes
+            please. Photography? Absolutely. 8-bit art? Bring it on. And don't
+            even get me started on cyber punk literature. When it comes to
+            coding, I'm in my element. I love the challenge of creating
+            something out of nothing, and I'm not satisfied until it's perfect.
+            So if you're looking for a software engineer with a passion for both
+            art and code, look no further.
+          </p>
+          <Link to="/">
+            <button className="button">HOME</button>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };

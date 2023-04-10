@@ -12,7 +12,10 @@ const AboutMe = () => {
       <div className="contain">
         <h1 className="about-me-text">Hello, I'm Hector.</h1>
         <h2 className="about-me-text-sub">Software Engineer</h2>
-        <h4>Choosing to turn coffee into lines of code.</h4>
+        <h4>
+          Turning coffee into lines of code, and lines of code into great
+          software.
+        </h4>
         <div>
           <a href="https://github.com/hekmaflo">
             <img className="logo" src={github} alt="logo" />

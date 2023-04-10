@@ -117,7 +117,7 @@ const Contact = () => {
           placeholder="Talk to me"
         />
         <button type="submit" className="button">
-          submit
+          Submit
         </button>
       </form>
     </div>
