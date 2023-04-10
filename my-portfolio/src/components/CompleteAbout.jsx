@@ -12,7 +12,7 @@ const CompleteAbout = () => {
           <h1 className="about-me-name">HECTOR FLORES</h1>
           <h2 className="google-font">Software Engineer</h2>
           {/* <h4>git add, git commit, git push is the new eat, pray & love</h4> */}
-          <h2 className="google-font">I am just a guy who enjoys to code.</h2>
+          <h2 className="google-font">I am just a guy who likes to code.</h2>
           <p className="right-description">
             Hi there, I'm Hector - the software engineer you've been searching
             for. I'm a fan of all things old school and retro. Black and white
