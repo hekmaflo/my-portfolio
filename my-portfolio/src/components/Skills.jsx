@@ -32,7 +32,7 @@ const Skills = () => {
           <h1>Image</h1>
         </div> */}
         <h3 className="google-font">
-          The secret sauce that makes my projects happend.
+          The secret sauce that makes my projects happen.
         </h3>
         <div className="all-skills">
           <div className="skills-category">
