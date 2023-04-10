@@ -10,7 +10,7 @@ const Projects = () => {
       projectname: "Ocho",
       description:
         "Social media website that allows users create lists to showcase their interests. Built using the MERN stack.",
-      projectlink: "https://www.google.com",
+      projectlink: "https://ocho-app.herokuapp.com",
       githubrepo: "https://github.com/hekmaflo/ocho-app",
     },
 
