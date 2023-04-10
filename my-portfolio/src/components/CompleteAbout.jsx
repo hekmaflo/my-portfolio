@@ -24,7 +24,7 @@ const CompleteAbout = () => {
             art and code, look no further.
           </p>
           <Link to="/">
-            <button className="button">HOME</button>
+            <button className="button">*HOME*</button>
           </Link>
         </div>
       </div>
