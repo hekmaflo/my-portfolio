@@ -43,7 +43,7 @@
 
 .about-me-text {
   font-family: "Lexend", sans-serif;
-  font-size: 55px;
+  font-size: 3.5em;
   letter-spacing: 0;
   margin: 0;
   padding: 0;
@@ -55,7 +55,7 @@
 
 .about-me-text-sub {
   font-family: "Lexend", sans-serif;
-  font-size: 40px;
+  font-size: 2.5em;
   letter-spacing: 0;
   margin: 0;
   padding: 0;
@@ -82,8 +82,8 @@
 }
 
 .logo {
-  width: 4.5%;
-  margin: 10px;
+  width: 2em;
+  margin: 0.5em;
   border-radius: 20px;
 }
 
@@ -96,7 +96,7 @@
 }
 
 .logo-nav {
-  width: 2%;
+  width: 3%;
   margin: 0;
   padding: 0;
 }
