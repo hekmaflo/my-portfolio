@@ -79,6 +79,7 @@
 
   .About-me-container {
     height: 50vh;
+    flex-direction: row-reverse;
   }
 }
 
@@ -304,6 +305,14 @@
 .project-description {
   font-size: 14px;
   margin: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .info-container {
+    height: 25rem;
+    width: 92vw;
+    margin-top: 1.5rem;
+  }
 }
 
 /* SKLLS */
