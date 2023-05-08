@@ -518,6 +518,16 @@
   border-radius: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+  .profile-pic {
+    width: 65%;
+  }
+
+  .profile-pic-about {
+    width: 40%;
+  }
+}
+
 .about-me-name {
   font-family: "Silkscreen", cursive;
   font-size: 50px;
